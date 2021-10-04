@@ -1,12 +1,15 @@
 package pl.testuj.collections_examples;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
 /*
 - przejdź pętlą for (klasyczny for) po liście namesList i wyświetl elementy (do sprawdzenia jak pobrać rozmiar listy)
  */
+
+// UWAGA Lista operuje tylko na obiektach, nie można używać typów prostych
 public class ListExamples {
     public static void main(String[] args) {
         // ArrayList -> jeśli głównie wyszukiwanie elementów w liście
@@ -67,5 +70,9 @@ public class ListExamples {
         // czyszczenie listy
         namesList.clear();
         System.out.println(namesList);
+
+        // zamiana tablicy na listę
+        Integer[] example = new Integer[] {1, 2, 3};
+        List<Integer> list = Arrays.asList(example);
     }
 }
