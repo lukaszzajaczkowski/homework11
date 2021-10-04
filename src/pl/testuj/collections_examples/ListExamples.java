@@ -1,9 +1,6 @@
 package pl.testuj.collections_examples;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /*
 - przejdź pętlą for (klasyczny for) po liście namesList i wyświetl elementy (do sprawdzenia jak pobrać rozmiar listy)
@@ -74,5 +71,10 @@ public class ListExamples {
         // zamiana tablicy na listę
         Integer[] example = new Integer[] {1, 2, 3};
         List<Integer> list = Arrays.asList(example);
+
+        List<Integer> list2 = new LinkedList<>();
+        for (int i = 0; i < example.length; i++) {
+            list2.add(example[i]);
+        }
     }
 }
