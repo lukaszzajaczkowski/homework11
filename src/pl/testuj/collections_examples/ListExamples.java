@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 /*
-- przejdź pętlą for po liście namesList i wyświetl elementy (do sprawdzenia jak pobrać rozmiar listy)
+- przejdź pętlą for (klasyczny for) po liście namesList i wyświetl elementy (do sprawdzenia jak pobrać rozmiar listy)
  */
 public class ListExamples {
     public static void main(String[] args) {
