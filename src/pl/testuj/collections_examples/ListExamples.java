@@ -65,16 +65,23 @@ public class ListExamples {
         namesList.forEach(element -> System.out.println(element));
 
         // czyszczenie listy
-        namesList.clear();
-        System.out.println(namesList);
+        //namesList.clear();
+        //System.out.println(namesList);
 
         // zamiana tablicy na listę
-        Integer[] example = new Integer[] {1, 2, 3};
-        List<Integer> list = Arrays.asList(example);
+        //Integer[] example = new Integer[] {1, 2, 3};
+        //List<Integer> list = Arrays.asList(example);
 
-        List<Integer> list2 = new LinkedList<>();
-        for (int i = 0; i < example.length; i++) {
-            list2.add(example[i]);
+        //List<Integer> list2 = new LinkedList<>();
+        //for (int i = 0; i < example.length; i++) {
+        //    list2.add(example[i]);
+        //}
+
+        System.out.println("Zadanie domowe:");
+
+
+        for (int i = 0; i < namesList.size(); i++) {
+            System.out.println(namesList.get(i));
         }
     }
 }

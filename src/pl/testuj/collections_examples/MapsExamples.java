@@ -40,5 +40,13 @@ public class MapsExamples {
         for (String fruit : colorsDescription.keySet()) {
             System.out.println("To jest owoc " + fruit + " a jego kolor to " + colorsDescription.get(fruit));
         }
+
+        System.out.println("Zadanie domowe:");
+
+
+        for (int i = 0; i < keys.size(); i++);
+        System.out.println(colorsDescription.values());
+
+
     }
 }
